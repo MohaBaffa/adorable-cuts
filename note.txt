@@ -1,0 +1,87 @@
+sample for creting a new customer
+
+{
+  "name": "John Doe",
+  "age": 30,
+  "contactInformation": {
+    "email": "johndoe@example.com",
+    "phone": "1234567890",
+    "address": "123 Main St, Anytown"
+  },
+  "measurements": {
+    "height": 180,
+    "bust": 90,
+    "waist": 75,
+    "hips": 95,
+    "shoulderWidth": 45,
+    "sleeveLength": 60,
+    "neck": 40,
+    "backLength": 70,
+    "thigh": 55,
+    "knee": 40,
+    "calf": 35,
+    "outseam": 100,
+    "rise": 30,
+    "wrist": 18,
+    "bicep": 30,
+    "armpit": 50,
+    "chest": 95,
+    "shirtLength": 72,
+    "crotch": 25
+  }
+}
+
+
+
+
+solve the customer route    💪
+complete the taskRouter      💪  
+do auth and authorization   
+documentation
+
+
+red shafi: 6634e5f7c2432ad6685fc449
+red zip: 6634e60cc2432ad6685fc44c
+customer: 6635f5be339519c2149638dc
+staff tailor : 6634cfee88f87e77fb1a4e81
+staff designer: 6634d08188f87e77fb1a4e88
+
+a task for umma: 6635fb6924fca1cac5a2ff17
+
+*SAMPLE OF TASK CREATE REQUEST*
+{
+  "name": "GOWN",
+  "customerId": "6635f5be339519c2149638dc",
+  "staffIds": ["6634cfee88f87e77fb1a4e81", "6634d08188f87e77fb1a4e88"],
+  "utilities": [
+    {
+      "utility": "6634e5f7c2432ad6685fc449",
+      "quantity": 3
+    },
+    {
+      "utility": "6634e60cc2432ad6685fc44c",
+      "quantity": 2
+    }
+  ],
+  "description": "Perform task ABC for customer XYZ",
+  "price": 1000,
+  "productionCost": 500
+}
+
+
+
+
+then frontend
+
+
+
+note 
+
+for the utility, it should display the number remaining for each item 
+when it's zero make it unclickable
+
+
+dashboard
+total numer of tailorrings documentation
+display profit and expenditure
+price of utility available
